@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+/*import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'hello',
@@ -19,7 +19,7 @@ export class HelloComponent {
   public async getAllOrdersFromToday(): Promise<void> {
     var requestOptions: any = {
       method: 'GET',
-      redirect: 'follow'
+      redirect: 'follow',
     };
 
     this.result = fetch(
@@ -28,12 +28,10 @@ export class HelloComponent {
     )
       .then((response) => response.text())
       .then((result) => {
-        
         const obj = JSON.parse(result);
         console.log(obj);
-
-
       })
       .catch((error) => console.log('error', error));
   }
 }
+*/
